@@ -77,10 +77,6 @@ class TicTacToe
           puts "Invalid address"
           @@count -=1
         end
-        p $line_2
-        p $line_3
-        p $line_4
-        p @mark
         print $line_2[0]; print $line_2[1]; puts $line_2[2]
         print $line_3[0]; print $line_3[1]; puts $line_3[2]
         print $line_4[0]; print $line_4[1]; puts $line_4[2]
@@ -147,4 +143,4 @@ class TicTacToe
     end
 end
 
-#TicTacToe.start_game
+TicTacToe.start_game

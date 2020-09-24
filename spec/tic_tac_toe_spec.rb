@@ -1,6 +1,8 @@
-require "C:/ruby files/Games/Tic_Tac_Toe.rb"
+
+require_relative "../Tic_Tac_Toe.rb"
 
 require "pry"
+
 
 
 describe TicTacToe do
