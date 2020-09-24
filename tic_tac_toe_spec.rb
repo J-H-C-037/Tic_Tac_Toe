@@ -1,4 +1,4 @@
-require "C:/ruby files/Games/Tic_Tac_Toe.rb"
+require "Tic_Tac_Toe.rb"
 
 require "pry"
 
